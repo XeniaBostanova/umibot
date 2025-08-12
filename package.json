@@ -1,0 +1,20 @@
+{
+  "name": "birmarket-autorpricer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/runner.ts",
+    "build": "tsc",
+    "start": "node dist/runner.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pg": "^8.16.3",
+    "playwright": "^1.54.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
